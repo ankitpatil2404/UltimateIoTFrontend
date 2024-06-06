@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+
+.body {
+  font-family: "Poppins", sans-serif;
+}
+
+.Center {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.device-list {
+  margin-top: 2rem;
+  margin-left: -1.1rem !important;
+}
+
+.ch-name {
+  font-family: "Realway", sans-serif;
+  font-size: 35px !important;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+.address {
+  margin-left: 18rem !important;
+  margin-top: 2rem !important;
+  line-height: 2.5;
+}
+
+.contact-form {
+  text-align: start;
+  padding: 1rem !important;
+}
+
+.contact-form input {
+  padding: 15px;
+  font-size: 15px !important;
+}
+
+.options,
+.select-fm {
+  font-size: 15px !important;
+}
+
+@media screen and (max-width: 990px) {
+  .field-name {
+    text-align: left !important;
+  }
+
+  .txt-password2,
+  .txt-password,
+  .txt-username,
+  .txt-email {
+    text-align: left !important;
+  }
+
+  .reset-btn {
+    margin-left: 17rem !important;
+  }
+
+  .logout {
+    margin-left: -1.5rem !important;
+  }
+
+  .txt-password2 {
+    font-size: 15px !important;
+  }
+  .btn-add {
+    margin-left: 1rem !important;
+  }
+
+  .device-list {
+    margin-left: 0.1rem !important;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1260px) {
+  .reset-btn {
+    margin-left: 13.5rem !important;
+  }
+}
